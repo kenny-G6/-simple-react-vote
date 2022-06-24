@@ -1,0 +1,72 @@
+
+body{
+  background-color: rgb(255, 255, 255);
+}
+
+#div2{
+  background-color: rgb(96, 164, 232);
+  height:100vh;
+  float: left;
+  }
+  
+  #div1{
+      background-color: rgb(98, 209, 196);
+      height:100vh;
+      float: right;
+      }
+  #CardCat{
+       width: 80%;
+       height: 80%;
+       justify-content:center;
+       padding-top: 5% ;
+       font-size:25px;
+       font-weight: bold;
+       color: rgb(98, 209, 196);
+       
+  }
+  #CardDog{
+      width: 80%;
+      height: 80%;
+      justify-content: center;
+      padding-top: 5% ;
+      font-size:25px;
+      font-weight: bold;
+      color: rgb(96, 164, 232); 
+  }
+  .card {
+      position:absolute;
+      width: 30%;
+      height: 200px;
+      display: flex;
+      justify-content:space-around;
+      margin-top:15%;
+      margin-left:40%;
+      background: white;
+      cursor: pointer;
+      user-select: none;
+
+  
+    
+  }
+  
+  .card div{
+      height: 100%;
+      display: flex;
+      width: 50%;
+      justify-content: center;
+      text-align: center;
+     
+  }
+  
+  .result{
+      position:absolute;
+      float:left ;
+      margin-top: 35%; 
+      margin-left: 80%;
+      font-size:30px;
+      color: rgb(205, 244, 233);
+      font-weight: bold;
+   
+  }
+
+
